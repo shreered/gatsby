@@ -1,0 +1,22 @@
+.nav-Container{
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+
+.nav-Container > .active {
+    color: #CAD486;
+}
+
+.navbar-option{
+    height: 200px;
+    color: #4C4C4C;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+  

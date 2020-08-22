@@ -1,0 +1,15 @@
+.wehabs__header{
+    height: 30px;
+    width: 100%;
+    background: #8C1516;
+}
+
+body{
+    margin: 0;
+}
+
+.wehabs__logo{
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
