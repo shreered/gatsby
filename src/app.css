@@ -37,8 +37,43 @@ body{
 }
 
 .contact-section{
-    height: 100vh;
-    background-color: tomato;
+    height: 95vh;
+    background-color: #404040;   
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+
+}
+
+.contact-section hr{
+    border-top: 1px solid black;
+    margin: auto;
+}
+
+.contact-section h1{
+    font-weight: normal;
+    color: wheat;
+}
+
+.contact-section h2{
+    color: white;
+    font-weight: strong;
+}
+
+.contact-section h3{
+    font-style: italic;
+    font-weight: normal;
+    color: wheat;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.contact-section a{
+    color: #6BCAE2;
+}
+.contact-section p{
+    font-size: large;
+    color: white;
+    padding: 10px;
 }
 
 .navbar > .active {

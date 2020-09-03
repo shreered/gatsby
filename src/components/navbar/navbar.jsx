@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 
 
 
+
 class Navbar extends Component{
     state={}
     render(){
@@ -13,7 +14,7 @@ class Navbar extends Component{
                     <Link activeClass="active" to="main" spy={true} smooth={true} offset={0} duration={500} >Home</Link>
                     <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500} >Projects</Link>
                     <Link activeClass="active" to="publications" spy={true} smooth={true} offset={0} duration={500} >Publications</Link>
-                    <Link activeClass="active" to="people" spy={true} smooth={true} offset={0} duration={500} >People</Link>
+                    <Link activeClass="active" to="people" spy={true} smooth={true} offset={0} duration={500} >Our Team</Link>
                     <Link activeClass="active" to="aboutme" spy={true} smooth={true} offset={0} duration={500} >About me</Link>
 
                     {/* <li>Main</li> */}
