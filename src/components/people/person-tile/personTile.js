@@ -27,7 +27,7 @@ const PersonTile = (props) => {
 
      const classes = useStyles();
 
-    const [open, setOpen] = React.useState(false);
+    const [open,  setOpen] = React.useState(false);
 
     const handleClickOpen = () => {
       setOpen(true);
